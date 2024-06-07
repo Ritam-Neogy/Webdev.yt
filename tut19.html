@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Height,width,borders and backgrounds</title>
+    <style>
+      #firstPara {
+        background-color: lightpink;
+        height: 100px;
+        width: 455px;
+        /* border-width: 4px;
+            border-style: solid;
+            border-color: green; */
+        border: 6px solid fuchsia;
+        border-radius: 11px;
+      }
+
+      #secondPara {
+        background-color: aquamarine;
+        height: 100px;
+        width: 455px;
+        border-top: 6px solid rgb(216, 31, 37);
+        border-right: 6px solid rgb(130, 225, 47);
+        border-bottom: 6px solid rgb(3, 95, 6);
+        border-left: 6px solid rgb(47, 112, 186);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 18px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 17px;
+      }
+
+      #thirdPara {
+        height: 300px;
+        width: 455px;
+        background-image: url('https://source.unsplash.com/1150x550/?nature,water');
+        border: 6px solid lightsalmon;
+        border-radius: 11px;
+        background-repeat: no-repeat;
+         /* repeat-x and repeat-y will make it repeat on x and y axis */
+        /* background-position: 192px 34px; */
+        background-position: center center;
+        /* background-position: bottom right; */
+        /* background-position: top center; */
+      }
+    </style>
+  </head>
+  <body>
+    <h3>First heading :</h3>
+    <p id="firstPara">Welcome to first paragraph.</p>
+    <h3>Second heading :</h3>
+    <p id="secondPara">Welcome to second paragraph.</p>
+    <h3>Third heading :</h3>
+    <p id="thirdPara">Welcome to third paragraph.</p>
+  </body>
+</html>

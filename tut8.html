@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+
+    <h3>HTML forms :</h3>
+    <form action="Backened.php">
+      <label for="name">Name :</label>
+      <div><input type="text" name="My Name" id="name"/></div>
+      <br />
+
+      <label for="role">Role :</label>
+      <div><input type="role" name="My Role" id="role" /></div>
+      <br />
+
+      <label for="email">Email :</label>
+      <div><input type="email" name="My Email" id="email"/></div>
+      <br />
+
+      <label for="date">Date of Birth :</label>
+      <div><input type="date" name="My Date" id="date" /></div>
+      <br />
+     
+      <label for="age"> Age : </label>
+      <div><input type="number" name="My Age" id="age"/></div>
+      <br>
+
+      <div>
+      <label for="gender">Gender : </label>
+        Male <input type="radio" name="My Gender" /> 
+        Female<input type="radio" name="My Gender" /> 
+        Others<input type="radio" name="My Gender" />
+      </div><br />
+
+      <div>
+        <label for="bld grp">Blood Group :</label>
+        <select name="My Bllod Group" id="bld grp">
+          <option value="">A+</option>
+          <option value="">B+</option>
+          <option value="">AB+</option>
+          <option value="">O+</option>
+        </select>
+      </div><br>
+       
+        <label for="Contact no.">Contact No. :</label>
+        <div><input type="My Contact No" id="Contact no."></div>
+        <br>
+
+       <div>
+        <label for="location">Location :</label>
+        <select name="My Location" id="location">
+          <option value="kol">Kolkata</option>
+          <option value="ban"selected>Bangalore</option>
+          <option value="hyd">Hyderabad</option>
+        </select>
+      </div><br>
+      
+      <label for="eligiblility">Are you eligible? :</label>
+      <div><input type="checkbox" name="My Eligiblility" id="eligiblility"/></div>
+      <br />
+
+      <div>
+        <label for="interset">Are you interseted to join the company?</label>
+        <select name="My Interset" id="interset">
+        <option value="yes">Yes</option >
+        <option value="no">No</option>
+        </select>
+      </div><br>
+
+      <label for="yourself"> About yourself :</label>
+      <div> <br><textarea name="About myself" id="yourself" cols="60" rows="20"></textarea></div><br>
+    
+      <div><input type="submit" value="Submit Now" />
+      <input type="reset" value="Reset Now" /></div>
+      <br>
+
+     </div>Save draft to ritamneogy@gmail.com : <input type="checkbox" name="Save to my gmail" checked></div>
+     <br>
+    
+    </form>
+  </body>
+</html>
+

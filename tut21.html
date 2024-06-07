@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alignment</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .container {
+        width: 900px;
+        border: 5px solid #247651;
+        background-color: rgb(122 180 221);
+        margin: 42px auto;
+      }
+
+      .item {
+        border: 4px solid #328143;
+        margin: 12px 3px;
+        padding: 22px 30px;
+        background: rgb(212 165 222);
+      }
+      #fruit {
+        float: right;
+        width: 48%;
+      }
+
+      #computer {
+        float: left;
+        width: 48%;
+      }
+
+      #stationary {
+        /* float: left; */
+        clear: both;
+        clear: left;
+        width: 100%;
+      }
+
+      p,
+      h3 {
+        text-align: right;
+        text-align: left;
+        text-align: center;
+        text-align: justify;
+      }
+
+      h1 {
+        margin: 23px auto;
+        width: 455px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Welcome to my store :</h2>
+      <div id="fruit" class="item">
+        <h3>Fruit :</h3>
+        <p id="fruitpara" class="para">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quam
+          doloribus, molestias velit accusamus alias, doloremque voluptatum
+          quibusdam aperiam totam dolorum magnam veniam? Deleniti, consequuntur
+          delectus eaque ea nesciunt repellendus?
+        </p>
+      </div>
+      <div id="computer" class="item">
+        <h3>Computer :</h3>
+        <p id="computerpara" class="para">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime aut
+          tenetur, error sint aliquam magnam amet harum natus corporis provident
+          iusto quas dolorum distinctio mollitia voluptatibus, delectus
+          aspernatur. Voluptatibus, molestiae?
+        </p>
+      </div>
+      <div id="stationary" class="item">
+        <h3>Stationary :</h3>
+        <p id="stationarypara" class="para">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Reprehenderit, debitis rerum culpa labore cupiditate alias sapiente
+          quis possimus nihil ipsa dolorum laborum adipisci quisquam corrupti at
+          laboriosam dolore aperiam beatae.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Assignment : try yourself to develop this web side. -->

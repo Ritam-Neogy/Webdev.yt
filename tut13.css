@@ -1,0 +1,11 @@
+p {
+    color: red;
+    background-color: yellow;
+}
+
+
+
+/* What does '!important' mean in CSS?
+
+Ans.
+In CSS, important means that only the '!important' property value is to be applied to an element and all other declarations on the element are to be ignored. In other words, an important rule can be used to override other styling rules in CSS. */

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo selectors & more designing</title>
+    <style>
+      .container {
+        border: 4px solid rgb(26 25 76);
+        background-color: rgb(226 115 160);
+        padding: 34px;
+        margin: 34px auto;
+        width: 666px;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      a:hover {
+        color: red;
+        background-color: khaki;
+      }
+      a:visited {
+        background-color: #3f6aab;
+      }
+
+      a:active {
+        background-color: darkolivegreen;
+      }
+      .btn {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-weight: bold;
+        background-color: rgb(135 36 163);
+        padding: 6px;
+        border: none;
+        cursor: pointer;
+        font-size: 13px;
+        border-radius: 4px;
+      }
+      .btn:hover {
+        color: rgb(200, 158, 103);
+        background-color: rgb(166, 239, 167);
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container" id="cont1">
+      <h3>Pseudo selectors & more designing :</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+        accusantium amet tempore eaque repellendus sit suscipit ipsam at ipsa
+        similique, sunt iure obcaecati nam natus repellat corporis neque
+        consequuntur sequi ullam porro voluptatibus totam.
+      </p>
+      <a href="https://google.com" class="btn">Read more</a>
+      <button class="btn">Contact us</button>
+    </div>
+  </body>
+</html>
